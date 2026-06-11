@@ -1,28 +1,25 @@
  .cabecalho{
     display: flex;
-    justify-content: center;
+    justify-content: space-between
     align-items: center;
  }
-
  .cabecalho-titulo{
-   color:rgb(201, 0, 0) = var(--dark-neutral);
-   font-weight: 800;
+   font-size: 3rem
+   color: black;
  }
 
             .cabecalho-menu{
          display:block;
    unicode-bidi: isolate;
-
 }
 
 .cabecalho-menu-item{
    text-decoration: none;
-   color:rgb(201, 0, 0)
+   color:rgb(255, 255, 255)
 
 }
 
-
-.cabecalho-menu-botao
+.cabecalho-menu-botao{
 background-color: var(--dark-neutral);
     color: #fff;
     border: none;
